@@ -1,0 +1,133 @@
+HEART HEALTH INFORMATION ASSISTANT
+
+Course: UCS420 - Cognitive Computing
+Project Type: University Laboratory Assignment
+Purpose: Educational and academic demonstration only
+
+
+1. PROJECT OVERVIEW
+
+The Heart Health Information Assistant is a Python-based healthcare cognitive computing project developed as part of university laboratory work.
+
+The system demonstrates how Natural Language Processing (NLP), machine learning, rule-based reasoning, and knowledge retrieval can be integrated to build a simple domain-specific assistant.
+
+The assistant accepts text-based queries related to heart health, identifies the user's intent, retrieves relevant information from a predefined knowledge base, and generates an appropriate response.
+
+This project is strictly for university laboratory work, academic learning, and demonstration purposes. It is not intended for real-world medical use.
+
+
+2. OBJECTIVES
+
+- Develop a labelled corpus of healthcare-related queries.
+- Create a hierarchical taxonomy for heart-health information.
+- Identify domain concepts and relationships.
+- Perform text preprocessing using NLP techniques.
+- Extract text features using TF-IDF.
+- Train and evaluate a machine learning intent classifier.
+- Develop a domain-specific healthcare knowledge base.
+- Implement rule-based reasoning and safety checks.
+- Integrate NLP, classification, reasoning, and retrieval.
+- Deploy an interactive assistant using Google Colab.
+
+
+3. TECHNOLOGIES USED
+
+- Python
+- Google Colab
+- NLTK
+- Scikit-learn
+- Pandas
+- Matplotlib
+- Seaborn
+
+
+4. SYSTEM FEATURES
+
+The assistant demonstrates the following capabilities:
+
+1. Accepts natural-language healthcare queries.
+2. Preprocesses text using lowercase conversion, tokenization, stopword removal, and lemmatization.
+3. Classifies queries into predefined intent categories using TF-IDF and Logistic Regression.
+4. Retrieves relevant information from a predefined knowledge base.
+5. Applies rule-based checks for emergency-related queries.
+6. Handles unsupported and low-confidence queries.
+7. Displays model evaluation metrics and a confusion matrix.
+8. Supports multiple queries through an interactive interface.
+
+
+5. INTENT CATEGORIES
+
+The assistant uses five primary intent categories:
+
+- Symptoms
+- Prevention
+- Nutrition
+- Exercise
+- Medication
+
+These categories are used to organize the training corpus and retrieve relevant information.
+
+
+6. SAFETY AND USAGE RESTRICTIONS
+
+This is an academic prototype, not a medical device or a clinically validated healthcare application.
+
+The system:
+
+- Does not diagnose medical conditions.
+- Does not provide personalized medical advice.
+- Does not prescribe medicines or recommend medication dosages.
+- Does not recommend starting, stopping, or changing prescribed treatment.
+- Does not replace consultation with a qualified healthcare professional.
+- May produce incorrect, incomplete, or misleading responses.
+- Has not been validated for clinical accuracy or reliability.
+
+Emergency-related rules are included as an educational demonstration of safety-oriented reasoning. They are not a reliable emergency detection system and must not be relied upon to identify or manage medical emergencies.
+
+Do not use this assistant to make real medical decisions or to determine whether emergency care is necessary.
+
+
+7. INSTALLATION AND EXECUTION
+
+1. Open the project notebook in Google Colab.
+2. Install the required Python libraries.
+3. Run the notebook cells in the specified order.
+4. Train the intent classification model.
+5. Evaluate the model using the provided metrics.
+6. Run the interactive assistant.
+7. Enter sample queries to observe the predicted intent and generated response.
+
+No real patient data is required for the demonstration.
+
+
+8. EVALUATION
+
+The machine learning model is evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion matrix
+
+These metrics evaluate the model's performance on the selected dataset only. They do not establish medical accuracy, clinical safety, or suitability for real-world healthcare applications.
+
+
+9. LIMITATIONS
+
+- The training corpus is small and contains predefined queries.
+- The classifier may fail to recognize differently worded or ambiguous questions.
+- The knowledge base contains limited, predefined information.
+- The emergency detection rules rely on keyword matching and may miss important symptoms.
+- The confidence score is not a measure of medical certainty.
+- The assistant does not connect to electronic health records or real-time medical databases.
+- The system has not undergone clinical testing or professional medical validation.
+
+
+10. CONCLUSION
+
+The Heart Health Information Assistant demonstrates the application of cognitive computing concepts in a healthcare-related domain.
+
+It integrates natural-language processing, machine learning, knowledge representation, rule-based reasoning, and information retrieval into a single interactive application.
+
+The project is intended solely to fulfill university laboratory learning objectives and demonstrate the concepts of cognitive computing. It is not intended for real-world healthcare use.
